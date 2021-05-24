@@ -3,3 +3,7 @@ author: Gero
 version: 0.0.1
 main: de.lowkeys.warp.main.Warp
 depend: [Core]
+commands:
+   warp:
+      name: warp
+      
