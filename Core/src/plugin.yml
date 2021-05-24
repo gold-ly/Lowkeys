@@ -1,0 +1,4 @@
+name: Core
+author: Gero
+version: 0.0.1
+main: de.lowkeys.core.main.Core
