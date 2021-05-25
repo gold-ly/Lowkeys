@@ -8,3 +8,7 @@ commands:
       name: warp
    createwarp:
       name: createwarp
+   delwarp:
+      name: delwarp
+   editwarp:
+      name: editwarp

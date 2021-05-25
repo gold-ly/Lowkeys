@@ -1,7 +1,5 @@
 package de.lowkeys.warp.objects;
 
-import java.util.ArrayList;
-
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.FileConfiguration;
