@@ -45,6 +45,13 @@ public class Warp {
 		WarpMain.getInstance().saveConfig();
 	}
 	
+	public static void removeWarp(String name) {
+		fileConfiguration = WarpMain.getInstance().getConfig();
+		
+		fileConfiguration.set("warps." + name, null);
+		WarpMain.getInstance().saveConfig();
+	}
+	
 	public static Warp getWarpByName(String name) {
 		fileConfiguration = WarpMain.getInstance().getConfig();
 		
