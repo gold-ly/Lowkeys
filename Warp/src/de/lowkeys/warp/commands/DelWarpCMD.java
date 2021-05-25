@@ -24,6 +24,7 @@ public class DelWarpCMD implements CommandExecutor {
 		
 		if(args.length != 1) {
 			player.sendMessage(Common.getPrefix() + "§cBitte benutze /delwarp <Name>");
+			return false;
 		}
 		
 		String warpName = args[0];
