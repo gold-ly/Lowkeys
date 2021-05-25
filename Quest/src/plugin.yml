@@ -1,0 +1,5 @@
+name: Quest
+author: Gero
+version: 0.0.1
+main: de.lowkeys.quest.main.QuestMain
+depends: [Core]

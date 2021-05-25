@@ -5,3 +5,6 @@ Core/.classpath
 Warp/.classpath
 Warp/.project
 Warp/.settings/org.eclipse.jdt.core.prefs
+Quest/.classpath
+Quest/.project
+*.prefs
