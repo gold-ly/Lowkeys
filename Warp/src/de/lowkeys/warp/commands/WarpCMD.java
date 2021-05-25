@@ -1,6 +1,7 @@
 package de.lowkeys.warp.commands;
 
 import org.bukkit.Location;
+import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -47,6 +48,8 @@ public class WarpCMD implements CommandExecutor {
 		player.teleport(location);
 		
 		player.sendMessage(Common.getPrefix() + "§7Du wurdest zum Warp §6" + warpName + " §7teleportiert!");
+		player.getWorld().playSound(warp.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 5, 1);
+
 
 		return false;
 	}

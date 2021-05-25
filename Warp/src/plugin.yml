@@ -6,9 +6,15 @@ depend: [Core]
 commands:
    warp:
       name: warp
+      description: Teleports you to a warp location.
    createwarp:
       name: createwarp
+      description: Creates a warp location at your current position.
    delwarp:
       name: delwarp
+      description: Deletes a specified warp location.
    editwarp:
       name: editwarp
+      description: Set a specific warp to your current position.
+   warps:
+      name: warps
