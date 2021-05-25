@@ -11,19 +11,19 @@ public class WarpCMD implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String arg2, String[] args) {
-		
-		if(!(sender instanceof Player)) {
+
+		if (!(sender instanceof Player)) {
 			return false;
 		}
-		
+
 		Player player = (Player) sender;
-		
-		if(!player.hasPermission("lowkeys.warp.warp")) {
+
+		if (!player.hasPermission("lowkeys.warp.warp")) {
 			player.sendMessage(Common.getNoPerms());
-			
+
 			return false;
 		}
-		
+
 		return false;
 	}
 

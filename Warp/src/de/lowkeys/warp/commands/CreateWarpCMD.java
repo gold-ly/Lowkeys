@@ -9,10 +9,10 @@ public class CreateWarpCMD implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String arg2, String[] args) {
-		if((sender instanceof Player)) {
+		if ((sender instanceof Player)) {
 			return false;
 		}
-				
+
 		return false;
 	}
 

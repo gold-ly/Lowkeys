@@ -9,7 +9,7 @@ public class Core extends JavaPlugin {
 	public void onEnable() {
 		Common.log("§7Core loaded!");
 	}
-	
+
 	@Override
 	public void onDisable() {
 		Common.log("§7Core unloaded!");

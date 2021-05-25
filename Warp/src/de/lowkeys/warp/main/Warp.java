@@ -11,10 +11,10 @@ public class Warp extends JavaPlugin {
 	public void onEnable() {
 		this.getCommand("warp").setExecutor(new WarpCMD());
 		this.getCommand("createwarp").setExecutor(new CreateWarpCMD());
-		
+
 		Common.log("§7Warp loaded!");
 	}
-	
+
 	@Override
 	public void onDisable() {
 		Common.log("§7Warp unloaded!");
