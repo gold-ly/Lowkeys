@@ -1,7 +1,7 @@
 name: Warp
 author: Gero
 version: 0.0.1
-main: de.lowkeys.warp.main.Warp
+main: de.lowkeys.warp.main.WarpMain
 depend: [Core]
 commands:
    warp:
