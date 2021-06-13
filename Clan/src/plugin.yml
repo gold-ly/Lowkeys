@@ -1,0 +1,10 @@
+name: Clan
+author: Gero
+version: 0.0.1
+main: de.lowkeys.clan.main.ClanMain
+commands:
+  clan:
+    name: clan
+    description: Gives you options for the clan system
+depend:
+  - Core
